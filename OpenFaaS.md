@@ -41,4 +41,4 @@ Deploy the "nodeinfo" test function:
 faas-cli deploy --image NodeInfo --name nodeinfo --gateway http://localhost:31112
 ```
 
-This "nodeinfo" function can be reached on the internal address: http://gateway.openfaas:8080 (using the pattern `https://<service name>.<namespace>:<default port>`) or through the public interface, usually running at `http://localhost:31112/ui`, using username `admin` and the previously defined password contained in environment variable `$PASSWORD`.
+This "nodeinfo" function can be reached on the internal address: http://gateway.openfaas:8080 (using the pattern `https://<service name>.<namespace>:<default port>`) or through the public interface, usually running at http://localhost:31112/ui/, using username `admin` and the previously defined password contained in environment variable `$PASSWORD`.
